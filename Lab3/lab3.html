@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<!--create head-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student's Maritial Status Survey with Inline Calculator</title>
+</head>
+<!--create body-->
+
+<body>
+
+
+    <!--create division for header-->
+    <div id="header" style="background-color: blanchedalmond; height: 100px; text-align: center;">
+        <h1 style="margin-bottom: 15px;">Student's Maritial Status Survey with Inline Calculator</h1>
+        <span style="background-color: bisque; text-align: center; display: block;">
+            <h3>Please answer the survey below. Thank you!</h3>
+    </div>
+
+
+    <!--create division for contact form and calculator-->
+    <div id="content-section"
+        style="text-align: center; height: 800px; font-size: medium; background-color: brown; float:left; width:100%">
+        <b><strong>Content Section</strong></b>
+        <br>
+        <br>
+        <!--create survey form-->
+        Nama Pelajar: <input type="text" name="namapelajar" placeholder="Masukkan nama pelajar di sini." autofocus autocomplete>
+        <br>
+        <br>
+        <b>Maritial Status:</b>
+        <br>
+        <input type="radio" id="married" name="dhkawin" value="Married">
+        <label for="Married">Married</label>
+        <br>
+        <input type="radio" id="notmarried" name="takkawin" value="Not Married">
+        <label for="notmarried">Not Married</label>
+        <br>
+        <br>
+        Survey Answer Date: <input type="date" name="tarikh">
+        <br>
+        <br>
+        Email: <input type="email" name="useremail">
+        <br>
+        <br>
+        Satisfaction Level (1-100):
+        <input type="range" name="satisfactionLevel" min="1" max="100">
+        <br>
+        <br>
+        <input type="submit" value="hantar">
+        <br>
+        <br>
+        <!--create simple calculator-->
+        <form oninput="z.value=parseInt(x.value)+parseInt(y.value)">
+            <input id="x" type="number" value="0"> +
+            <input id="y" type="number" value="0"> =
+            <output name="z" for="x y"></output>
+        </form>
+
+
+    </div>
+    <!--create division for footer-->
+    <div id="footer" style="clear:both; background-color: black;color:aliceblue">
+        All rights reserved SAFIRUL &copy; 2024
+        <br>
+        For More Information, Please Contact Us At: <a href="#">safirul@mail.com</a>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
