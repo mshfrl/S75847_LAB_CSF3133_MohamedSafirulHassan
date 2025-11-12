@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Rental Website</title>
+
+
+    <!--External CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Internal CSS-->
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: maroon;
+            text-align: center;
+            padding: 60px;
+            margin: -8px;
+            color: white;
+        }
+
+        nav {
+            background-color: black;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            overflow: auto;
+            width: 100%;
+            gap: 30px;
+
+        }
+
+        nav ul li {
+            float: left;
+
+        }
+
+        a {
+            display: block;
+            font-weight: bold;
+            color: yellow;
+            background-color: black;
+            width: 100%;
+            text-align: center;
+            padding: 4px;
+            text-decoration: none;
+            text-transform: uppercase;
+
+        }
+
+        article{
+            text-align: center;
+            color:goldenrod;
+            background-color: black;
+            padding: 20px;
+            text-decoration: solid black;
+        }
+
+        #forms{
+            background-color: darkolivegreen;
+            color: white;
+            padding: 20px;
+            width: 50%;
+            text-align: left;
+            margin: auto;
+            box-shadow: 5px 10px 18px #888888;
+            border-radius: 10px;
+            margin-top: 25px;
+        }
+
+        footer {
+            background-color: darkgoldenrod;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin: -8px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!--create header-->
+    <header>
+        <h1>Welcome To Vehicle Rental Website</h1>
+    </header>
+    <!--create navigation bar-->
+    <nav> <!--navigation menu-->
+        <ul><!--list-->
+            <li><a href="#home">Home</a></li>
+            <br>
+            <li><a href="#vehicle">Vehicle Type</a></li>
+            <br>
+            <li><a href="#about">About US</a></li>
+        </ul>
+    </nav>
+    <!--create main content-->
+    <section id="home">
+        <article>
+            <h2>Rent Your Vehicle Now!</h2>
+            <p><b>One Of The Best Platform To Rent A Vehicle</b></p>
+        </article>
+    </section>
+
+    <section id="vehicle">
+        <article>
+            <video width="1000" height="300" controls autoplay muted loop>
+                <source src="videoplayback.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>One Of Our Beast, The Moving Castle</p>
+        </article>
+    </section>
+    <!--create form section-->
+    <div id="forms">
+        <form>
+            <h3>Fill Up This Form To Rent A Vehicle</h3>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="vehicleType">Select Vehicle Type:</label><br>
+            <input type="radio" id="car" name="vehicleType" value="car">
+            <label for="car"> Car</label><br>
+            <input type="radio" id="motor" name="vehicleType" value="motor">
+            <label for="motor">Motorbike</label><br>
+            <input type="radio" id="boat" name="vehicleType" value="boat">
+            <label for="boat">Boat</label><br><br>
+
+            <label for="rental-date">Rental Date:</label><br>
+            <input type="date" id="rental-date" name="rental-date" required><br><br>
+
+            <label for="hobby">May we know your hobby?</label><br>
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading"> Reading</label><br>
+            <input type="checkbox" id="cycling" name="hobby" value="cycling">
+            <label for="cycling"> Cycling</label><br>
+            <input type="checkbox" id="movie" name="hobby" value="movie">
+            <label for="movie">Watching Movies</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <br><br>
+    <!--footer section-->
+    <footer>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our company is committed to help all our customers who needs transportation</p>
+            <p>Contact us at: <a href="mailto:safrental@mail.com">email</a>
+        </section>
+        Safirul.co &copy; 2025. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
