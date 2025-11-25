@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0; /*to make the elements in other section to fill up the whole row/section*/
+}
+/*umt.html*/
+header img{
+    background-color: white;
+}
+nav ul{
+    background-color: rgb(123, 53, 126);
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding: 25px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav ul li a:link {
+    color: black;
+}
+nav ul li a:hover {
+    color: orangered;
+    background-color: rgba(197, 23, 159, 0.596);
+    border-radius: 20px;
+}
+
+nav ul li a:visited {
+    color: black;    
+}
+
+
+nav ul li a:active {
+    color: black;
+    background-color: white;
+}
+
+div.gambar {
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.gambar img {
+  padding: 10px;
+}
+
+#home{
+    background-color: lightgray;
+    padding: 50px;
+    margin-top: -4px;
+}
+#home h2{
+    color: rgba(98, 6, 103, 0.952);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+#home p{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    color: black;
+}
+.colorWelcomeUMT{
+    height: 40px;
+    background-color: lightgray;
+}
+
+.colourSpaceMediaCenter{
+    height: 30px;
+    background-color: black;
+}
+/*social media section*/
+.mediaCenter {
+    text-align: center;
+    padding: 40px 0;
+    background-color: black;
+    max-width: 100%;
+    display: block;
+}
+
+
+.mediaCenter h1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;              
+    margin-top: 40px;
+    flex-wrap: wrap;        
+}
+
+.mediasosial {
+    width: 350px;           
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.mediasosial h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/*make iframe responsive*/
+.mediasosial iframe,
+.mediasosial blockquote {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/*all footer*/
+footer{
+    background-color: rgba(98, 6, 103, 0.952);
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    padding: 20px;
+}
+.footerUMT{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.footerUMT img{
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+/*about.html*/
+#about{
+    background-color: lightgray;
+    padding: 50px;
+}
+#about h1{
+    color: rgba(98, 6, 103, 0.952);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#about p{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: black;
+}
+.embedYT{
+    text-align: center;
+    margin-bottom: -4px;
+    background-color: black;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+/*faculty.html*/
+#faculty{
+    background-color: lightgray;
+    padding: 50px;
+}
+#faculty h1{
+    color: rgba(98, 6, 103, 0.952);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#faculty p{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: black;
+}
+#faculty table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#faculties {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    background: white;
+    font-size: 18px;
+}
+#faculties th {
+    background-color: #4b0082;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#faculties td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+#faculties tr:hover td {
+    background-color: #e9dfff;
+    cursor: pointer;
+}
+.whiteSpace{
+    height: 30px;
+    background-color: lightgray;
+    padding-bottom: 40px;
+}
+.umtmap{
+    text-align: center;
+    background-color: lightgray;
+}
+.umtmap img{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+/*admission.html*/
+#admission{
+    background-color: lightgray;
+    padding: 50px;
+}
+#admission h1{
+    color: rgba(98, 6, 103, 0.952);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#admission h5{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#admission p{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+    gap: 50px;
+}
+#admission a{
+    font-weight: bold;
+    color: white;
+}
+.pillbutton {
+  background-color: rgba(98, 6, 103, 0.952);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
