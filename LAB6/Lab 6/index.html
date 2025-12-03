@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>F1 Quiz</title>
+    <!--link css file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="startQuiz()">
+
+    <h1>WELCOME TO THE FORMULA 1 QUIZ SECTION</h1>
+    <h4>Please Answer The Questions Below</h4>
+    
+    <div id="QuizSection">
+
+        <div id="quizBox">
+            <div id="timer"></div>
+            <p id="questions"></p>
+            <div id="options"></div>
+            <button id="nextButton" onclick="loadNextQuestion()">Next Question</button>
+
+            <div id="feedback"></div>
+        </div>
+    </div>
+
+    <div id="resultSection">
+        <button id="restartButton" onclick="restartQuiz()">Restart Quiz</button>
+        <h3>Your Score: <span id="score"></span></h3>
+    </div>
+
+    <!--footer section-->
+    <footer>
+        <p> &copy; 2025 Safirul F1 | Created by Safirul Hassan</p>
+        <p>A fun Formula 1 quiz for all racing fans.</p>
+    </footer>
+    <!--link js file-->
+    <script src="script.js"></script>
+</body>
+
+</html>
